@@ -4,10 +4,12 @@ Loja estática de demonstração. Catálogo, detalhes, estoque e finalização u
 
 ## Executar localmente
 
-Inicie a API na porta 3001. Nesta pasta, execute `npx http-server -p 8140 .` e abra `http://localhost:8140`.
+Nesta pasta, execute `npx http-server -p 8140 .` e abra `http://localhost:8140`. A configuração padrão aponta para a API publicada. Para usar uma API local na porta 3001, abra `http://localhost:8140/?api=http://localhost:3001`.
 
-## Publicar no GitHub Pages
+## Publicação no GitHub Pages
 
-Antes de enviar este repositório, coloque a URL HTTPS da API publicada em `assets/js/config.js`. Envie os arquivos desta pasta para a raiz da branch `main`. Em Settings → Pages, escolha Deploy from a branch, `main` e `/ (root)`.
+Loja: https://caua019m.github.io/cic-shop-frontend/
+
+API configurada em `assets/js/config.js`: https://cic-shop-backend.onrender.com. Os arquivos desta pasta estão na raiz da branch `main`; o Pages publica `/ (root)`.
 
 Para experimentar outra API sem editar o arquivo, abra a loja com `?api=https://SUA-API.onrender.com`. A escolha fica salva no navegador.
